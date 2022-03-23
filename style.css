@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    text-align: center;
+    color: #949398;
+    background-color: #f1eee9;
+    position: relative;
+}
+nav img {
+    width: 30px;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: #03569a;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #f5df4e;
+}
+#Logo {
+    width: 5%;
+}
+#item-menu {
+    width: 60%;    
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    border: 2px solid #f5df4e;
+    border-radius: 5px;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section img {
+    border-bottom: 2px solid #f5df4e;
+    width: 100%;
+}
+section p {
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+/*
+#container1 {
+    display: flex;
+    flex-direction: row;
+}
+#card {
+    width: 30%;
+}
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+*/
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 2%;
+}
+.card p {
+    height: 80px;
+}
+.card h3 {
+    font-size: 15px;
+}
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img1 {
+    width: 300px;
+    background-image: url(/img/transferir1.jpg);
+}
+#img2 {
+    width: 300px;
+    background-image: url(/img/transferir2.jpg);
+}
+#img3 {
+    width: 300px;
+    background-image: url(/img/transferir3.jpg);
+}
+#img4 {
+    width: 300px;
+    background-image: url(/img/transferir4.jpg);
+}
+#img5 {
+    width: 300px;
+    background-image: url(/img/transferir5.jpg);
+}
+#img6 {
+    width: 300px;
+    background-image: url(/img/transferir6.jpg);
+}
+footer {
+    color: #fff;
+    background-color: #03569a;
+    border-top: 2px solid #f5df4e;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+/*
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+main {
+    flex-grow: 1;
+}
+header, main, footer {
+    flex-shrink: 0;
+}
+*/
