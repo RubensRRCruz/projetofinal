@@ -9,6 +9,7 @@ body {
     background-color: #f1eee9;
     position: relative;
 }
+
 nav img {
     width: 30px;
 }
@@ -22,15 +23,19 @@ nav {
     padding: 20px;
     border-bottom: 2px solid #f5df4e;
 }
+
 #Logo {
     width: 5%;
 }
+
 #item-menu {
-    width: 60%;    
+    width: 60%;
 }
+
 nav ul {
     display: flex;
 }
+
 nav ul li a {
     padding: 10px;
     margin: 10px;
@@ -41,20 +46,26 @@ nav ul li a {
     border: 2px solid #f5df4e;
     border-radius: 5px;
 }
+
 nav div {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 section img {
     border-bottom: 2px solid #f5df4e;
     width: 100%;
 }
+
 section p {
     width: 80%;
+    height: auto;
     text-align: justify;
     margin: auto;
 }
+
+
 /*
 #container1 {
     display: flex;
@@ -69,9 +80,10 @@ section p {
     padding: 50px;
 }
 */
+
 .products-container {
     max-width: 1200px;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
 .card {
@@ -80,43 +92,53 @@ section p {
     margin: 1% 1%;
     padding: 2%;
 }
+
 .card p {
     height: 80px;
 }
+
 .card h3 {
     font-size: 15px;
 }
+
 .product-image {
     height: 300px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     background-position: center;
     background-size: cover;
 }
+
 #img1 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir1.jpg);
 }
+
 #img2 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir2.jpg);
 }
+
 #img3 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir3.jpg);
 }
+
 #img4 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir4.jpg);
 }
+
 #img5 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir5.jpg);
 }
+
 #img6 {
-    width: 300px;
+    width: 450px;
     background-image: url(/img/transferir6.jpg);
 }
+
 footer {
     color: #fff;
     background-color: #03569a;
@@ -124,7 +146,10 @@ footer {
     position: absolute;
     bottom: 0%;
     width: 100%;
+    margin-top: 10;
 }
+
+
 /*
 article {
     min-height: 100%;

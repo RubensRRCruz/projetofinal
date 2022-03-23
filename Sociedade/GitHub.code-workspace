@@ -1,26 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "..\\..\\..\\..\\Desktop\\Unitel code web\\Exercicio2"
-		},
-		{
-			"path": "..\\..\\..\\..\\Desktop\\Unitel code web\\Aula 3"
-		},
-		{
-			"path": "..\\..\\..\\..\\Desktop\\Unitel code web\\projeto-blog"
-		},
-		{
-			"path": "..\\..\\..\\..\\Desktop\\Projetos web\\projeto-blog (1)\\projeto-blog"
-		},
-		{
-			"path": "..\\..\\..\\..\\Desktop\\Unitel code web\\Projeto final modulo 1"
-		},
-		{
-			"path": ".."
-		}
-	],
-	"settings": {
-		"liveServer.settings.port": 5501,
-		"liveServer.settings.multiRootWorkspaceName": "projecto1"
-	}
+    "folders": [
+        {
+            "path": ".."
+        }
+    ]
 }
